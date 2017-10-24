@@ -40,4 +40,10 @@ var locations = [
           infowindow.open(map, marker);
         }
       })(marker, i));
-     
+    }
+    var cnt = 0;
+   
+   function counting() {
+   cnt++;
+   alert(cnt);    
+       }
