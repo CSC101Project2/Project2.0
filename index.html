@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+
+  <script src="chatbot.js"></script>
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
@@ -25,13 +28,13 @@
       margin: auto;
       min-height:200px;
   }
-
   /* Hide the carousel text when the screen is less than 600 pixels wide */
   @media (max-width: 600px) {
     .carousel-caption {
       display: none; 
     }
   }
+  
   </style>
 </head>
 <body>
@@ -95,8 +98,49 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-</div>
+  </div>
+  <!-- ChatBot Code -->
+  <div id="live-chat">
+     
+      <header class="clearfix">
+        
+        <a href="#" class="chat-close">x</a>
   
+        <h4>Live Chat - How Can We Help?</h4>
+  
+        <span class="chat-message-counter">1</span>
+  
+      </header>
+  
+      <div class="chat">
+        
+        <div class="chat-history">
+          
+          <div class="chat-message clearfix">
+  
+            <div class="chat-message-content clearfix">
+  
+              <h5></h5>
+  
+              <p>Would you like to run 2km, 5km or 10km?</p>
+  
+            </div> <!-- end chat-message-content -->
+  
+          </div> <!-- end chat-message -->
+  
+  
+        <form action="#" method="post">
+  
+          <fieldset>
+            
+            <input type="text" placeholder="Type your message…" autofocus>
+            <input type="hidden">
+  
+          </fieldset>
+  
+        </form>
+  
+      </div> <!-- end chat -->
 <div class="container text-center">    
   <h3>What We Do</h3><br>
   <div class="row">

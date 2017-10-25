@@ -1,24 +1,35 @@
 var locations = [
     [
-        "48.465520, -123.308269 Munchies ",
-        48.465520, 
-        -123.308269
+        "Mount Doug Trails",
+        48.491043, 
+        -123.338419
     ],
     [
-    		"48.467883, -123.310966 Carsa Gym ",
+    		"Carsa Gym ",
         48.467883, 
         -123.310966
     ],
     [
-    		"48.463423, -123.309931 Biblio Cafe ",
-    		48.463423, 
-    		-123.309931
+    		"Centennial Stadium Track",
+        48.467611, 
+        -123.315143
+    ],
+    [
+       "Mount Tolmie Trails",
+        48.456986, 
+        -123.325852
+    ],
+    [
+        "Beach Rd",
+        48.454979, 
+        -123.300783
     ]
+
 ]
 
     var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 15,
-      center: new google.maps.LatLng(48.463649,  -123.311951),
+      zoom: 13,
+      center: new google.maps.LatLng(48.4671678, -123.3265902),
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
 
