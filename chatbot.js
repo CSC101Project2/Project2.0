@@ -1,4 +1,4 @@
-(function() {
+(function chatbot() {
     
         $('#live-chat header').on('click', function() {
     

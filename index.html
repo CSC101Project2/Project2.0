@@ -8,8 +8,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700">
-
-  <script src="chatbot.js"></script>
+  <link rel="stylesheet" href="chatbot.css">
+  <script type="text/javascript" src="chatbot.js"></script>
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
@@ -51,10 +51,10 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="program.html">Find a Program</a></li>
-          <li><a href="map.html">Find a Route</a></li>
-          <li><a href="fares.html">Fares</a></li>
+        
+        <li><a href="program.html">About Us</a></li>
+        <li><a href="map.html">Find a Route</a></li>
+        <li><a href="fares.html">Browse Programs</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log into your account</a></li>
@@ -98,50 +98,55 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+
+    
   </div>
   <!-- ChatBot Code -->
   <div id="live-chat">
-     
-      <header class="clearfix">
-        
-        <a href="#" class="chat-close">x</a>
-  
-        <h4>Live Chat - How Can We Help?</h4>
-  
-        <span class="chat-message-counter">1</span>
-  
-      </header>
-  
-      <div class="chat">
-        
-        <div class="chat-history">
-          
-          <div class="chat-message clearfix">
-  
-            <div class="chat-message-content clearfix">
-  
-              <h5></h5>
-  
-              <p>Would you like to run 2km, 5km or 10km?</p>
-  
-            </div> <!-- end chat-message-content -->
-  
-          </div> <!-- end chat-message -->
-  
-  
-        <form action="#" method="post">
-  
-          <fieldset>
-            
-            <input type="text" placeholder="Type your message…" autofocus>
-            <input type="hidden">
-  
-          </fieldset>
-  
-        </form>
-  
-      </div> <!-- end chat -->
-<div class="container text-center">    
+    
+     <header class="clearfix">
+       
+       <a href="#" class="chat-close">x</a>
+ 
+       <h4>Live Chat - How Can We Help?</h4>
+ 
+       <span class="chat-message-counter">1</span>
+ 
+     </header>
+ 
+     <div class="chat">
+       
+       <div class="chat-history">
+         
+         <div class="chat-message clearfix">
+ 
+           <div class="chat-message-content clearfix">
+ 
+             <h5></h5>
+ 
+             <p>Would you like to run 2km, 5km or 10km?</p>
+ 
+           </div> <!-- end chat-message-content -->
+ 
+         </div> <!-- end chat-message -->
+ 
+ 
+       <form action="#" method="post">
+ 
+         <fieldset>
+           
+           <input type="text" placeholder="Type your message…" autofocus>
+           <input type="hidden">
+ 
+         </fieldset>
+ 
+       </form>
+ 
+     </div>
+    </div>
+  </div><!-- end chat -->
+  <!-- End chat code --> 
+<!--<div class="container text-center">    
   <h3>What We Do</h3><br>
   <div class="row">
     <div class="col-sm-4">
@@ -161,7 +166,8 @@
       </div>
     </div>
   </div>
-</div><br>
+</div> -->
+<br>
 
 <footer class="container-fluid text-center">
   <p>"Step Forward Into Growth" 
