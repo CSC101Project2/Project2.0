@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: The-Running-Route
+  host: The-Running-Route
+  disk_quota: 1024M
+  services:
+  - The-Running-Route-cloudantNoSQLDB
