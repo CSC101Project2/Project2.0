@@ -3,8 +3,8 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: The-Running-Route
-  host: The-Running-Route
+  name: TheRunningRoute3
+  host: TheRunningRoute
   disk_quota: 1024M
   services:
-  - The-Running-Route-cloudantNoSQLDB
+  - TheRunningRoute3-cloudantNoSQLDB
